@@ -1,0 +1,32 @@
+3.	Complete the following methods in the outline class below
+
+a.	public static int countTotalPositiveValues(String fileName) which opens the file whose name is specified by the parameter (fileName).The method should read each integer element from a file adding each positive number only to a total count, until the end of file is reached. The method should close the file before finally returning the count as the method result.  Create a file to test your method.
+
+b.	public void writeToFile(int[] data, String filename) which opens the file whose name is specified by the parameter (fileName).The method should write each element from the array parameter (data) to a separate line in the file. The method should close the file before finishing.  Try this with both an array of integers and an array of Strings (you will need to create this in your code).
+	
+public class TestFiles {
+ 
+   // return total value of numbers in specified file
+   public static int countTotalPositiveValue(String fileName) {
+       // open file
+       // declare local variables to count positive integers
+       // and to store number read from file
+       // loop until end of file
+       //   if number read from file is positive add it to count
+       // end of loop
+       // close file
+       // return count
+   }
+
+   // write array data elements to specified file
+   public static void writeToFile(int (or String)[] data, String fileName) {
+       // open file
+       // loop through each array position
+       //   write array value to file (separate each item written 
+       //   with either a space a tab or a new line)
+       // end of loop
+       // close file
+   }  
+
+} // end of class
+
